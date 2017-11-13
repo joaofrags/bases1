@@ -1,0 +1,270 @@
+@charset "UTF-8";
+
+html {background-color:#4a4747; }
+header,nav,article,aside,footer {
+                                 margin: 0px;
+                                 padding: 0px;
+                                }
+/*Padrão para titulos*/
+h1, h2, h3, h4, h5, h6, #h1a, #h2h, #h1g, #h1j, #h2j { 
+			font-family: "arial", "impact", "verdana", "liberation sans", "sans-serif" ; 
+			font-size:16px ;
+            padding: 0px 0px ;
+            margin: 0px 0px ;
+}
+
+/*BODY*/
+body {
+    width: 1101px ;
+    margin: 0px auto;
+    background-color:lightgray;
+    box-shadow: 0px 0px 50px 5px black ;
+}
+/*HEADER*/
+header {
+    background-color: #ac1717  ;
+    width: 1101px ;
+    height: 73px ;
+    margin: 0px auto ;
+}
+
+/*ul li*/
+
+.nav1 ul,ol,li {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav1 ul li {
+    display: inline;
+}
+
+.nav1 ul li a:hover {
+    color: #ffffff ;
+}
+/*ul*/
+.nav1 ul {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 5px 0px;
+    background-color: black ;
+    width:1101px ;
+    text-align: center ;
+}
+
+/*ul li a*/
+
+.nav1 ul li a {
+    padding: 9px 50px 9px 50px ;
+    margin: 0px 0px;
+    text-transform: uppercase;
+    color: red ;
+    text-decoration: none;
+    text-align:center ;
+    font-size: 16px ;
+}
+
+/*ARTICLE*/
+
+#articleh {
+        float: left  ;
+        width: 810px ;
+        margin: 10px 0px ;
+        }
+
+/*ASIDE*/
+#asideh {
+    background-color: #ac1717 ;
+    box-shadow: 0px 0px 25px 2px ;
+    float: right ;
+    width: 230px ;
+    padding: 0px 10px 10px 0px ;
+    margin: 20px 20px ;
+    
+}
+
+/*FOOTER*/
+footer{ 
+    background-color: black ;
+    clear: both ;
+    text-align: center ;
+    height: 33px ;
+}
+.danteaside { padding: 5px 10px 5px 13px ; }
+.textoaside { margin: 20px 5px ; }
+.linkf {color: white ;}
+h1{margin: 5px 320px ;
+    padding 0px 0px ;
+  }
+h1:hover{color:#e82020 ;}
+h2:hover{color: #ffffff ;}
+#h1g{margin: 10px 480px ;}
+#h1j{margin: 10px 477px ;}
+.h2j{
+    margin: 10px 65px ;
+    color: white ;
+}
+#h2h{
+    margin: 0px 0px ;
+    padding: 4px 13px 4px 13px ;
+    width: 230px ;
+    font-size: 16px ;
+    color: white ;
+}
+#h1a { margin: 11px 320px 0px 150px ;
+       float: right ;
+}
+p{
+    padding: 0px 0px ;
+    margin: 13px 10px 10px 20px ;
+    font-size: 14px ;
+    font-family: "Times new roman", "Liberation serif", "serif" ;
+    text-align: left ;
+}
+#info { 
+    font-size: 14px ;
+    font-family: "Times new roman", "Liberation serif", "serif" ;
+    padding: 0px 0px 0px 20px ;
+    margin: 0px 0px ;
+}
+#paside { 
+        font-family: "Times new roman", "Liberation serif", "serif" ;
+        padding: 0px 0px 10px 0px ;
+        margin: 0px 0px 0px -14px ;
+        width: 220px ;
+        color: white ;    
+        }
+.lia{color:white ;}
+table {
+    float: left;
+    margin: 0px 10px 20px 10px ;
+    padding: 0px 0px;
+    background-color: #ac1717 ;
+    box-shadow: 0px 0px 17px 5px black ;
+}
+/*tabela*/
+td {
+    background-color: #f49f9f ;
+}
+
+td,
+th,
+caption {
+    font-size: 16px;
+    text-align: center;
+    margin: 7px 0px 10px 0px;
+    font-family: "Arial", "verdana", "impact", "liberation sans", "sans-serif";
+}
+small {color: white ;}
+.linkf{
+        text-decoration: none ;
+        color: red ;
+        font-family: "Times new roman", "Liberation serif", "serif" ;
+}
+#danteh{
+    float: left ;
+    padding:0px 0px ;
+    margin: 5px 20px 0px 20px  ;
+}
+.parmas{
+     padding: 24px 0px 0px 0px ;
+    margin: 0px 10px ;
+    font-size: 14px ;
+    font-family: "Times new roman", "Liberation serif", "serif";
+    text-align: left ;
+    float: left ;
+    width: 785px ;
+    
+}
+#input1, #input2, #input3, #input4{
+    width:160px ;
+     }
+#input1 {margin: 0px 9px ;}
+#input2 {margin: 0px 30px ;}
+#input3 {margin: 0px 20px ;}
+#input4 {margin: 0px 33px ;}
+/*padrao para os paragrafos*/
+#g1, #g2, #g3, #g4, #g5{
+    padding: 0px 0px ;
+    margin: 13px 10px 10px 20px ;
+    font-size: 14px ;
+    font-family: "Times new roman", "Liberation serif", "serif" ;
+    text-align: left ;
+}
+#golpe1{
+        float:left ;
+        margin: 5px 10px 10px 10px ;
+        }
+#g1{margin: 14px 10px 15px 10px ;}
+#golpe2{
+        float:right ;
+        margin: 5px 10px 10px 10px ;
+        }
+#g2{margin: 18px 10px 15px 10px ;}
+#golpe3{
+        float:left ;
+        margin: 5px 10px 10px 10px ;
+        }
+#g3{margin: 18px 10px 15px 10px ;}
+#golpe4{
+        float:right ;
+        margin: 5px 10px 10px 10px ;
+        }
+#g4{margin: 18px 10px 15px 10px ;}
+#golpe5{
+        float: left ;
+        margin: 5px 10px 10px 10px ;
+        }
+#g5{margin: 18px 10px 15px 10px ;}
+.sec1{
+    width:250px;
+    background-color: #ac1717 ;
+    float: left ;
+    }
+.pjogos{color: white ;}
+#dmc1{margin: 10px 20px ;}
+.sec2{
+    width:250px;
+    background-color: #ac1717 ;
+    float: left ;
+    }
+#dmc2{margin: 10px 20px ;}
+.sec3{
+    width:250px;
+    background-color: #ac1717 ;
+    float: left ;
+    }
+#dmc3{margin:10px 20px ;}
+.sec4{
+    width:250px;
+    background-color: #ac1717 ;
+    float: left ;
+    }
+#dmc4{margin:10px 20px ;}
+.sec1, .sec2, .sec3, .sec4{
+    margin: 20px 12px ;
+    box-shadow: 0px 0px 13px 4px black ;
+    }
+textarea{
+    width:155px ;
+    height:100px ;
+}
+#dropdown{
+    margin: 10px 10px 40px 20px ;
+    float: left ;
+}
+#lists{
+    width: 150px;
+    margin: 5px 10px ;
+}
+#listd{width:49px;}
+#f1{
+    border: 0px inset white ;
+    float: left ;
+    margin: 1px ;
+}
+#f2{
+    border: 0px inset white ;
+    margin: 20px ;
+}
+#label1{float:left ;}
+#button{margin-left: 80px ;}
